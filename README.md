@@ -36,28 +36,30 @@ The application uses a RESTful API with persistent data storage and a clean, res
 
 ## 📂 Project Structure
 
+```text
 task-manager/
 │
 ├── backend/
-│ ├── config/
-│ │ └── db.js
-│ ├── controllers/
-│ │ └── task.controller.js
-│ ├── models/
-│ │ └── Task.js
-│ ├── routes/
-│ │ └── task.routes.js
-│ ├── server.js
-│ ├── package.json
-│ └── .env
+│   ├── config/
+│   │   └── db.js
+│   ├── controllers/
+│   │   └── task.controller.js
+│   ├── models/
+│   │   └── Task.js
+│   ├── routes/
+│   │   └── task.routes.js
+│   ├── server.js
+│   ├── package.json
+│   └── .env
 │
 ├── frontend/
-│ ├── index.html
-│ ├── style.css
-│ └── script.js
+│   ├── index.html
+│   ├── style.css
+│   └── script.js
 │
 ├── .gitignore
 └── README.md
+```
 
 ---
 
