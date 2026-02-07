@@ -17,6 +17,25 @@ The application uses a RESTful API with persistent data storage and a clean, res
 
 ---
 
+## 📸 Application Screenshots (Frontend)
+
+### Home Page
+![Home Page](screenshots/1-home.png)
+
+### Add Task Form
+![Add Task Form](screenshots/2-add-task-form.png)
+
+### Task Added (Pending State)
+![Task Added](screenshots/3-task-added.png)
+
+### Task Completed (Status Update)
+![Task Completed](screenshots/4-task-completed.png)
+
+### Update Task (Edit Mode)
+![Update Task](screenshots/5-update-task.png)
+
+---
+
 ## 🛠️ Tech Stack
 
 ### Frontend
