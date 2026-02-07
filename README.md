@@ -59,7 +59,6 @@ task-manager/
 ├── .gitignore
 └── README.md
 
-
 ---
 
 ## ⚙️ Setup Instructions (Run Locally)
