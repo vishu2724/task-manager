@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+  }
+  
+  body {
+    background: #000000;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: auto;
+    background: #111111;
+    padding: 20px;
+    border-radius: 6px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  input, textarea, select {
+    padding: 10px;
+    font-size: 16px;
+    background: #222222;
+    border: 1px solid #444;
+    color: #ffffff;
+    resize: vertical;
+  }
+  /* textarea { resize: vertical; } */
+  
+  input::placeholder,
+  textarea::placeholder {
+    color: #bbbbbb;
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 16px;
+    background: #ffffff;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #dddddd;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  .task {
+    border: 1px solid #333;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    background: #1a1a1a;
+    overflow-wrap: break-word;
+  }
+  
+  .task.completed {
+    background: #0f3d3e; 
+    text-decoration: line-through;
+  }
+  
+  .actions {
+    margin-top: 8px;
+  }
+  
+  .actions button {
+    margin-right: 5px;
+    font-size: 14px;
+    background: #ffffff;
+    color: #000000;
+  }
+  
+  .btn-update {
+    background: #0d6efd;   /* blue */
+    color: white;
+  }
+  
+  
+  
+  
