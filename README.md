@@ -74,34 +74,28 @@ Follow the steps below to run the project on your local machine.
 ```bash
 git clone https://github.com/vishu2724/task-manager
 cd task-manager
+
 2️⃣ Backend Setup
 Move into the backend folder:
-
 cd backend
 Install dependencies:
-
 npm install
+
 3️⃣ Environment Variables
 Create a .env file inside the backend folder:
-
 PORT=5000
 MONGO_URI=mongodb://127.0.0.1:27017/task_manager
 Make sure MongoDB is installed and running on your system.
 
 4️⃣ Start the Backend Server
 node server.js
-or (recommended for development):
-
-npx nodemon server.js
 Expected output:
-
 MongoDB connected
 Server running on port 5000
+
 5️⃣ Frontend Setup
 Go to the frontend folder
-
 Open index.html in your browser
-
 No frontend server is required.
 
 🔗 API Endpoints
@@ -110,27 +104,15 @@ POST	/api/tasks	Create a new task
 GET	/api/tasks	Get all tasks
 PUT	/api/tasks/:id	Update a task
 DELETE	/api/tasks/:id	Delete a task
+
 🧪 Sample Task Object
 {
   "title": "Learn Backend",
   "description": "CRUD using Node and MongoDB",
   "status": "pending"
 }
-🧠 Key Learnings
-RESTful API design
-
-CRUD operations using MongoDB
-
-MVC architecture (Models, Controllers, Routes)
-
-Frontend–Backend integration using Fetch API
-
-Clean UI with responsive design
-
-Git & GitHub version control
 
 ⭐ If you like this project
 Give it a ⭐ on GitHub!
-
 
 ---
